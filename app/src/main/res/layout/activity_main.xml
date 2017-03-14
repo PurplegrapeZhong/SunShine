@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纳米学位应用"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/hotMovie_tv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="热门电影"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:background="#2E3D49"
+        />
+
+
+    <TextView
+        android:id="@+id/stock_tv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="股票雄鹰"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:background="#2E3D49"
+        />
+
+    <TextView
+        android:id="@+id/reader_tv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="XYZ 阅读器"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:background="#2E3D49"
+        />
+
+    <TextView
+        android:id="@+id/news_tv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="最新闻"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:background="#2E3D49"
+        />
+
+    <TextView
+        android:id="@+id/graduation_tv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="毕业设计"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:background="#2E3D49"
+        />
+
+
+</LinearLayout>
